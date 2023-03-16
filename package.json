@@ -1,0 +1,20 @@
+{
+  "name": "create-dapp-server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mktcodelib/web3indexer": "^0.3.6"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  }
+}
