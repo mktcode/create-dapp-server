@@ -1,14 +1,9 @@
 {
-  "name": "create-dapp-server",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "start": "ts-node src/index.ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "dependencies": {
     "@mktcodelib/web3indexer": "^0.3.6"
   },
@@ -16,5 +11,8 @@
     "eslint": "^8.36.0",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
