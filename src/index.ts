@@ -4,7 +4,7 @@
 import { Web3Indexer } from '@mktcodelib/web3indexer';
 
 const indexer = new Web3Indexer({
-  debug: true,
+  networks: {},
 });
 
 indexer.replay();

@@ -1,12 +1,12 @@
 {
   "scripts": {
-    "lint": "eslint .",
+    "lint": "eslint . --fix",
     "dev": "nodemon src/index.ts",
     "start": "ts-node src/index.ts"
   },
   "license": "GPL-3.0",
   "dependencies": {
-    "@mktcodelib/web3indexer": "^0.3.6"
+    "@mktcodelib/web3indexer": "^0.3.8"
   },
   "devDependencies": {
     "@types/node": "^18.15.3",
