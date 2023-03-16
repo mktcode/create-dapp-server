@@ -1,6 +1,7 @@
 {
   "scripts": {
     "lint": "eslint .",
+    "dev": "nodemon src/index.ts",
     "start": "ts-node src/index.ts"
   },
   "license": "GPL-3.0",
@@ -8,7 +9,11 @@
     "@mktcodelib/web3indexer": "^0.3.6"
   },
   "devDependencies": {
+    "@types/node": "^18.15.3",
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/parser": "^5.55.0",
     "eslint": "^8.36.0",
+    "nodemon": "^2.0.21",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.2"
   },

@@ -2,7 +2,8 @@
   "compilerOptions": {
     "target": "ES2022",
     "exactOptionalPropertyTypes": true,
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "moduleResolution": "node"
   },
   "include": ["src/**/*", "tests/**/*"]
 }
